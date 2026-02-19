@@ -1,0 +1,10 @@
+name = "tolls"
+main = "worker.js"
+compatibility_date = "2023-10-30"
+
+# Izinkan penggunaan cloudflare:sockets untuk koneksi TCP
+node_compat = true
+
+[vars]
+# Ganti UUID ini dengan milik Anda sendiri atau atur di dashboard Cloudflare
+UUID = "90cd2451-9316-43f1-b1e1-123456789abc"
